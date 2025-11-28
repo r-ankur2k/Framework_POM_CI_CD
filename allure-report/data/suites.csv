@@ -1,4 +1,0 @@
-"DESCRIPTION","DURATION IN MS","NAME","PARENT SUITE","START TIME","STATUS","STOP TIME","SUB SUITE","SUITE","TEST CLASS","TEST METHOD"
-"","92","Checkout Items Validation","","Fri Nov 28 12:56:24 IST 2025","passed","Fri Nov 28 12:56:24 IST 2025","E2E Flow","tests\TC01_Flow.test.ts","",""
-"","55","Checkout Items","","Fri Nov 28 12:56:24 IST 2025","passed","Fri Nov 28 12:56:24 IST 2025","E2E Flow","tests\TC01_Flow.test.ts","",""
-"","7858","Adding Products","","Fri Nov 28 12:56:16 IST 2025","passed","Fri Nov 28 12:56:24 IST 2025","E2E Flow","tests\TC01_Flow.test.ts","",""
