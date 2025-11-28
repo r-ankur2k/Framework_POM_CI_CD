@@ -1,0 +1,160 @@
+# Page snapshot
+
+```yaml
+- generic [active] [ref=e1]:
+  - generic [ref=e2]:
+    - navigation "main navigation" [ref=e3]:
+      - generic [ref=e4]:
+        - link "letcode" [ref=e6] [cursor=pointer]:
+          - /url: /
+          - img "letcode" [ref=e7]
+        - generic [ref=e8]:
+          - generic [ref=e9]:
+            - link "Work-Space" [ref=e10] [cursor=pointer]:
+              - /url: /test
+            - generic [ref=e12] [cursor=pointer]: Products
+            - generic [ref=e14] [cursor=pointer]: Grooming
+            - link "Courses" [ref=e15] [cursor=pointer]:
+              - /url: /courses
+            - link "Contact" [ref=e16] [cursor=pointer]:
+              - /url: /contact
+          - button "" [ref=e20] [cursor=pointer]:
+            - generic [ref=e22]: 
+    - generic [ref=e23]:
+      - generic [ref=e25]:
+        - generic [ref=e26]:
+          - button " Products" [ref=e28] [cursor=pointer]:
+            - generic [ref=e30]: 
+            - generic [ref=e31]: Products
+          - heading "Shopping Cart" [level=2] [ref=e32]
+          - generic [ref=e33]:
+            - table [ref=e34]:
+              - rowgroup [ref=e35]:
+                - row "Product Quantity Price Total Actions" [ref=e36]:
+                  - cell "Product" [ref=e37]
+                  - cell "Quantity" [ref=e38]
+                  - cell "Price" [ref=e39]
+                  - cell "Total" [ref=e40]
+                  - cell "Actions" [ref=e41]
+              - rowgroup [ref=e42]:
+                - row "Fjallraven - Foldsack No. 1 Backpack, Fits 15 Laptops - 1 + $109.95 $109.95 " [ref=e43]:
+                  - cell "Fjallraven - Foldsack No. 1 Backpack, Fits 15 Laptops" [ref=e44]
+                  - cell "- 1 +" [ref=e45]:
+                    - button "-" [ref=e46] [cursor=pointer]
+                    - text: "1"
+                    - button "+" [ref=e47] [cursor=pointer]
+                  - cell "$109.95" [ref=e48]
+                  - cell "$109.95" [ref=e49]
+                  - cell "" [ref=e50]:
+                    - button "" [ref=e51] [cursor=pointer]:
+                      - generic [ref=e53]: 
+                - row "John Hardy Women's Legends Naga Gold & Silver Dragon Station Chain Bracelet - 1 + $695 $695 " [ref=e54]:
+                  - cell "John Hardy Women's Legends Naga Gold & Silver Dragon Station Chain Bracelet" [ref=e55]
+                  - cell "- 1 +" [ref=e56]:
+                    - button "-" [ref=e57] [cursor=pointer]
+                    - text: "1"
+                    - button "+" [ref=e58] [cursor=pointer]
+                  - cell "$695" [ref=e59]
+                  - cell "$695" [ref=e60]
+                  - cell "" [ref=e61]:
+                    - button "" [ref=e62] [cursor=pointer]:
+                      - generic [ref=e64]: 
+                - row "Samsung 49-Inch CHG90 144Hz Curved Gaming Monitor (LC49HG90DMNXZA) – Super Ultrawide Screen QLED - 1 + $999.99 $999.99 " [ref=e65]:
+                  - cell "Samsung 49-Inch CHG90 144Hz Curved Gaming Monitor (LC49HG90DMNXZA) – Super Ultrawide Screen QLED" [ref=e66]
+                  - cell "- 1 +" [ref=e67]:
+                    - button "-" [ref=e68] [cursor=pointer]
+                    - text: "1"
+                    - button "+" [ref=e69] [cursor=pointer]
+                  - cell "$999.99" [ref=e70]
+                  - cell "$999.99" [ref=e71]
+                  - cell "" [ref=e72]:
+                    - button "" [ref=e73] [cursor=pointer]:
+                      - generic [ref=e75]: 
+            - button "Checkout" [ref=e77] [cursor=pointer]
+        - paragraph [ref=e79]:
+          - text: "Credit: Built using"
+          - link "Fakestoreapi" [ref=e80] [cursor=pointer]:
+            - /url: https://fakestoreapi.com/
+      - generic [ref=e82]:
+        - generic:
+          - generic:
+            - generic:
+              - insertion
+    - generic [ref=e83]:
+      - insertion [ref=e85]:
+        - generic [ref=e87]:
+          - generic "These are topics related to the article that might interest you" [ref=e88]: Discover more
+          - link "Contrast Raglan Long Sleeve" [ref=e89] [cursor=pointer]:
+            - img [ref=e91]
+            - text: Contrast Raglan Long Sleeve
+          - link "Shirt" [ref=e93] [cursor=pointer]:
+            - img [ref=e95]
+            - text: Shirt
+          - link "Three Button Henley" [ref=e97] [cursor=pointer]:
+            - img [ref=e99]
+            - text: Three Button Henley
+          - link "Best fashion retailers" [ref=e101] [cursor=pointer]:
+            - img [ref=e103]
+            - text: Best fashion retailers
+          - link "Jacket" [ref=e105] [cursor=pointer]:
+            - img [ref=e107]
+            - text: Jacket
+          - link "Lock and Love" [ref=e109] [cursor=pointer]:
+            - img [ref=e111]
+            - text: Lock and Love
+          - link "T-shirt" [ref=e113] [cursor=pointer]:
+            - img [ref=e115]
+            - text: T-shirt
+          - link "Jackets" [ref=e117] [cursor=pointer]:
+            - img [ref=e119]
+            - text: Jackets
+          - link "T Shirt" [ref=e121] [cursor=pointer]:
+            - img [ref=e123]
+            - text: T Shirt
+          - link "jackets" [ref=e125] [cursor=pointer]:
+            - img [ref=e127]
+            - text: jackets
+      - contentinfo [ref=e129]:
+        - generic [ref=e131]:
+          - generic [ref=e132]:
+            - paragraph [ref=e133]: LetCode by Koushik Chatterjee
+            - paragraph [ref=e134]: Empowering Test Automation Engineers through learning
+          - paragraph [ref=e136]:
+            - text: © 2025 LetCode | Created by
+            - link "Koushik Chatterjee" [ref=e137] [cursor=pointer]:
+              - /url: https://www.linkedin.com/in/ortoni/
+            - text: "&"
+            - link "Bollineni Lakshmi Yaswanth" [ref=e138] [cursor=pointer]:
+              - /url: https://www.linkedin.com/in/bollineni-lakshmi-yaswanth-14472a199
+  - insertion [ref=e139]:
+    - iframe [ref=e142]:
+      - iframe [ref=f1e1]:
+        - generic [ref=f2e1]:
+          - generic [ref=f2e2]:
+            - generic:
+              - img [ref=f2e6] [cursor=pointer]
+              - button [ref=f2e8] [cursor=pointer]:
+                - img [ref=f2e9]
+          - generic [ref=f2e16]:
+            - link [ref=f2e17] [cursor=pointer]:
+              - /url: https://googleads.g.doubleclick.net/dbm/clk?sa=L&ai=CDes6i44haeqmLbOFjMwPx_qAoAXNuafEgwGN3PLn2xS3_PP9CBABINORliJg5arlg6wOyAEJqQKPH6-eNf9HPqgDAcgDmwSqBPQBT9D0mvXzHnueVY5ck_Pk_f3FPhRh8Uucm6vwpOILRUDgHqetpiW5KAUawhfRrhCQeaKrrzIOqTz56mY4bncVoiTbJgm8oeCv5l4b2b9tjLM4wiWA5cKpEZZYn486Ekbj4nc8RPegY7iTFjaJLW8CTzwp0N9ONaLxGHwM8lfalfSY8aNJe0jjkeQ8v_8rcOxjBvtvW3JdRnLcEJHMZ63Bo_88gwQC3ptMJPhwpP-eebbioYbMexwQ5-8VGw3mKD9hb1fywiQUl10Sqf8ARaiHdDKCAAwVOtrXpulliDroaPbH-fngPmUp95pv_vf0Kng4mgiFW8AE0KjB9sAF4AQDiAWzptGGVpAGAaAGTYAHzauUqxioB6fMsQKoB6a-G6gHzM6xAqgH89EbqAeW2BuoB6qbsQKoB47OG6gHk9gbqAfw4BuoB-6WsQKoB_6esQKoB6--sQKoB9XJG6gH2baxAqgHmgaoB_-esQKoB9-fsQKoB_jCsQKoB_vCsQKoB-fXsQLYBwDSCC8IgGEQARifATIIioKAgICAgAg6DYBAgMCAgICAqIACqANIvf3BOljv9s7KxIWRA4AKAZgLAcgLAYAMAaoNAklO6g0TCKeB4crEhZEDFbMCgwMdRz0AVPANAYgOCbATxuy3H9ATANgTENgUAdAVAcoWAgoA-BYBgBcBshcCGAKyGAkSArhQGE0iAQDQGQE&ae=1&num=1&cid=CAQSvwEAwksa0erVBAOYbIfFI9JR39wuVhKFOJxS6VgxD3Y4mnMVcuSLa76_8jwnOlj9Ex9SLuuAbcj954m1ITqcm1OoML4L8j3Dl27u797ESwOkZh1GQsEsN2pWTlPH51W02RD4Z5WbdyYSqEtu07NR2BeFWUVPotB2kOE8Hk9IS-D-9d8R6FzwDNYSYjGDwX5i427Z5-9WpTMMyvIzu5oa1vMbUG1axn-g4DDzWujuny_Dvo8oLrDQ7a5soESaeXBSHBgB&sig=AOD64_3CyBEeBbUcQMLcDg2j3Ll_biJnhA&client=ca-pub-6251538267574677&dbm_c=AKAmf-DdMBV3dPvn2PskoYBYSzkNLxkUzgrBwhCadx8AovQKAJI0wZ8kXBIyIlifhTnkuUp21Nv6xQ59wOYZ5CtfUicMeLQ6_llDkidb5odH00MF4nNyNJvEzxMbMjUPM1rIrn4f8uuLLg_XpB72YLG0A0Fnbh_lUWcf1Qf67UOVC4DdLLbJMQe8QaJ_MOL6mNM9ERRT3TigzGpV1IxuieiTCaZZtQiue9ll6kA8FDzc3LJ1VSupgZASmgnl7srfg49MKZ5w0OYKajVVW0H4fGFkpy9VnJPBoiOR1yTFptmh8FMaH2ayJ_A&cry=1&dbm_d=AKAmf-AgK34AldliTrS-G2YHNmkFCeMw7b6dwddRrcI5_nF3C7vZiQqEwfh_GTE0y0WPPUbK8zshSbkej-jYcRD_SwgAAg_yF5rXSKCj4mRY5flHblevcZ5XxN-uUTJl1oSXXYCIRhcjjipWSFR10P1-80VUj29UwLnhG6YQxsZYGNW0d_qKeeRyPh8yAl3tQ9UDEhC0BRhQbKcXO17pDelMrQk5wfQHeUL0i2X00nTA0q47CTD0kxXHUmcW9PDrGxmC0EV0guTKcmXTX3FW7FtszNnLFS2GvaxpGsBl7uuzS7vsl4f8OV_9a_6hRC_4d29kwOaS8e154sJ3fn56mrEsZmEsjnDPu4J2_zbOxE6vlHfhTnBknQnXLZC8AL9z-2qkdy26PJAXR6BxJP1WtPgTVCGPXdwT8EG8tChb49vQV1VP8pOIBe1IN4fP2-kD0q5JJiY4R-2P9LY2FCp9rxlsGee7v30jJRSnK0p-y0xbKKfTG6Tj58jIEAQwNen_qMPxGNX7yR1g8aaD-TcFsmoFQI575EoNvFxrZAcg3owBW3xVgZWB5qeuc4vFv3RDiXusrJcATds0tBl4dcJSA6agAnk7KAWaJQSHFXPuthTbtj7DIjlaUO85dio073vev_Iq-Q1onefIjIIxErEeKMlFhPsn8PvUueEONJm4etc4RCYqhcYrVkRoxu5fUXOEGprq0gcBQ6szeDkpeU2fSJ9Rh7yiWGorqA&adurl=https://servedby.flashtalking.com/click/7/289921;9917026;5606100;211;0/?us_privacy=!!US_PRIVACY!&ft_impID=A0E31403-982B-9CEB-5CAF-B2E09CC436B4&g=65358B0233F62B&random=623615.7516085271&ft_width=728&ft_height=90&url=https://www.zoho.com/in/payroll/?utm_source=paytm&utm_medium=cpc&utm_campaign=india25&utm_content=DB-728x90
+            - iframe [ref=f2e18]:
+              - generic [ref=f3e5]:
+                - img [ref=f3e8]
+                - img [ref=f3e11]
+                - img [ref=f3e14]
+                - img [ref=f3e17]
+                - img [ref=f3e20]
+                - img [ref=f3e23]
+                - img [ref=f3e26]
+                - img [ref=f3e29]
+                - img [ref=f3e32]
+                - img [ref=f3e35]
+                - img [ref=f3e38]
+                - img [ref=f3e41]
+  - generic [ref=e143]:
+    - generic [ref=e144] [cursor=pointer]:
+      - img [ref=e146]
+      - link "Go to shopping options for Jacket" [ref=e148]: Jacket
+    - button "Close shopping anchor" [ref=e149]
+```

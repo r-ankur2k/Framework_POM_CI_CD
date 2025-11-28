@@ -1,0 +1,250 @@
+# Page snapshot
+
+```yaml
+- generic [active] [ref=e1]:
+  - generic [ref=e2]:
+    - navigation "main navigation" [ref=e3]:
+      - generic [ref=e4]:
+        - link "letcode" [ref=e6] [cursor=pointer]:
+          - /url: /
+          - img "letcode" [ref=e7]
+        - generic [ref=e8]:
+          - generic [ref=e9]:
+            - link "Work-Space" [ref=e10] [cursor=pointer]:
+              - /url: /test
+            - generic [ref=e12] [cursor=pointer]: Products
+            - generic [ref=e14] [cursor=pointer]: Grooming
+            - link "Courses" [ref=e15] [cursor=pointer]:
+              - /url: /courses
+            - link "Contact" [ref=e16] [cursor=pointer]:
+              - /url: /contact
+          - button "" [ref=e20] [cursor=pointer]:
+            - generic [ref=e22]: 
+    - generic [ref=e25]:
+      - heading "Fake Store" [level=1] [ref=e26]
+      - generic [ref=e27]:
+        - heading "Products" [level=2] [ref=e29]
+        - generic [ref=e31]:
+          - button "" [ref=e32] [cursor=pointer]:
+            - generic [ref=e34]: 
+          - button "" [ref=e35] [cursor=pointer]:
+            - generic [ref=e37]: 
+      - generic [ref=e38]:
+        - generic [ref=e40]:
+          - paragraph [ref=e42]: Fjallraven - Foldsack No. 1 Ba...
+          - figure [ref=e44]:
+            - img "Fjallraven - Foldsack No. 1 Backpack, Fits 15 Laptops" [ref=e45]
+          - paragraph [ref=e47]: Your perfect pack for everyday use and walks in the forest. Stash your laptop (u...
+          - button "₹ 109.95" [ref=e49] [cursor=pointer]
+        - generic [ref=e51]:
+          - paragraph [ref=e53]: Mens Casual Premium Slim Fit T...
+          - figure [ref=e55]:
+            - img "Mens Casual Premium Slim Fit T-Shirts" [ref=e56]
+          - paragraph [ref=e58]: Slim-fitting style, contrast raglan long sleeve, three-button henley placket, li...
+          - button "₹ 22.3" [ref=e60] [cursor=pointer]
+        - generic [ref=e62]:
+          - paragraph [ref=e64]: Mens Cotton Jacket...
+          - figure [ref=e66]:
+            - img "Mens Cotton Jacket" [ref=e67]
+          - paragraph [ref=e69]:
+            - text: great outerwear
+            - link "jackets" [ref=e70] [cursor=pointer]:
+              - /url: "#"
+              - img [ref=e71]
+              - text: jackets
+            - text: for Spring/Autumn/Winter, suitable for many occasions, s...
+          - button "₹ 55.99" [ref=e74] [cursor=pointer]
+        - generic [ref=e76]:
+          - paragraph [ref=e78]: Mens Casual Slim Fit...
+          - figure [ref=e80]:
+            - img "Mens Casual Slim Fit" [ref=e81]
+          - paragraph [ref=e83]: The color could be slightly different between on the screen and in practice. / P...
+          - button "₹ 15.99" [ref=e85] [cursor=pointer]
+        - generic [ref=e87]:
+          - paragraph [ref=e89]: John Hardy Women's Legends Nag...
+          - figure [ref=e91]:
+            - img "John Hardy Women's Legends Naga Gold & Silver Dragon Station Chain Bracelet" [ref=e92]
+          - paragraph [ref=e94]: From our Legends Collection, the Naga was inspired by the mythical water dragon ...
+          - button "₹ 695" [ref=e96] [cursor=pointer]
+        - generic [ref=e98]:
+          - paragraph [ref=e100]: Solid Gold Petite Micropave ...
+          - figure [ref=e102]:
+            - img "Solid Gold Petite Micropave" [ref=e103]
+          - paragraph [ref=e105]: Satisfaction Guaranteed. Return or exchange any order within 30 days.Designed an...
+          - button "₹ 168" [ref=e107] [cursor=pointer]
+        - generic [ref=e109]:
+          - paragraph [ref=e111]: White Gold Plated Princess...
+          - figure [ref=e113]:
+            - img "White Gold Plated Princess" [ref=e114]
+          - paragraph [ref=e116]: Classic Created Wedding Engagement Solitaire Diamond Promise Ring for Her. Gifts...
+          - button "₹ 9.99" [ref=e118] [cursor=pointer]
+        - generic [ref=e120]:
+          - paragraph [ref=e122]: Pierced Owl Rose Gold Plated S...
+          - figure [ref=e124]:
+            - img "Pierced Owl Rose Gold Plated Stainless Steel Double" [ref=e125]
+          - paragraph [ref=e127]: Rose Gold Plated Double Flared Tunnel Plug Earrings. Made of 316L Stainless Stee...
+          - button "₹ 10.99" [ref=e129] [cursor=pointer]
+        - generic [ref=e131]:
+          - paragraph [ref=e133]: WD 2TB Elements Portable Exter...
+          - figure [ref=e135]:
+            - img "WD 2TB Elements Portable External Hard Drive - USB 3.0" [ref=e136]
+          - paragraph [ref=e138]: USB 3.0 and USB 2.0 Compatibility Fast data transfers Improve PC Performance Hig...
+          - button "₹ 64" [ref=e140] [cursor=pointer]
+        - generic [ref=e142]:
+          - paragraph [ref=e144]: SanDisk SSD PLUS 1TB Internal ...
+          - figure [ref=e146]:
+            - img "SanDisk SSD PLUS 1TB Internal SSD - SATA III 6 Gb/s" [ref=e147]
+          - paragraph [ref=e149]: Easy upgrade for faster boot up, shutdown, application load and response (As com...
+          - button "₹ 109" [ref=e151] [cursor=pointer]
+        - generic [ref=e153]:
+          - paragraph [ref=e155]: Silicon Power 256GB SSD 3D NAN...
+          - figure [ref=e157]:
+            - img "Silicon Power 256GB SSD 3D NAND A55 SLC Cache Performance Boost SATA III 2.5" [ref=e158]
+          - paragraph [ref=e160]: 3D NAND flash are applied to deliver high transfer speeds Remarkable transfer sp...
+          - button "₹ 109" [ref=e162] [cursor=pointer]
+        - generic [ref=e164]:
+          - paragraph [ref=e166]: WD 4TB Gaming Drive Works with...
+          - figure [ref=e168]:
+            - img "WD 4TB Gaming Drive Works with Playstation 4 Portable External Hard Drive" [ref=e169]
+          - paragraph [ref=e171]: Expand your PS4 gaming experience, Play anywhere Fast and easy, setup Sleek desi...
+          - button "₹ 114" [ref=e173] [cursor=pointer]
+        - generic [ref=e175]:
+          - paragraph [ref=e177]: Acer SB220Q bi 21.5 inches Ful...
+          - figure [ref=e179]:
+            - img "Acer SB220Q bi 21.5 inches Full HD (1920 x 1080) IPS Ultra-Thin" [ref=e180]
+          - paragraph [ref=e182]: 21. 5 inches Full HD (1920 x 1080) widescreen IPS display And Radeon free Sync t...
+          - button "₹ 599" [ref=e184] [cursor=pointer]
+        - generic [ref=e186]:
+          - paragraph [ref=e188]: Samsung 49-Inch CHG90 144Hz Cu...
+          - figure [ref=e190]:
+            - img "Samsung 49-Inch CHG90 144Hz Curved Gaming Monitor (LC49HG90DMNXZA) – Super Ultrawide Screen QLED" [ref=e191]
+          - paragraph [ref=e193]: 49 INCH SUPER ULTRAWIDE 32:9 CURVED GAMING MONITOR with dual 27 inch screen side...
+          - button "₹ 999.99" [ref=e195] [cursor=pointer]
+        - generic [ref=e197]:
+          - paragraph [ref=e199]: BIYLACLESEN Women's 3-in-1 Sno...
+          - figure [ref=e201]:
+            - img "BIYLACLESEN Women's 3-in-1 Snowboard Jacket Winter Coats" [ref=e202]
+          - paragraph [ref=e204]:
+            - text: Note:The
+            - link "Jackets" [ref=e205] [cursor=pointer]:
+              - /url: "#"
+              - img [ref=e206]
+              - text: Jackets
+            - text: is US standard size, Please choose size as your usual wear Mate...
+          - button "₹ 56.99" [ref=e209] [cursor=pointer]
+        - generic [ref=e211]:
+          - paragraph [ref=e213]: Lock and Love Women's Removabl...
+          - figure [ref=e215]:
+            - img "Lock and Love Women's Removable Hooded Faux Leather Moto Biker Jacket" [ref=e216]
+          - paragraph [ref=e218]: 100% POLYURETHANE(shell) 100% POLYESTER(lining) 75% POLYESTER 25% COTTON (SWEATE...
+          - button "₹ 29.95" [ref=e220] [cursor=pointer]
+        - generic [ref=e222]:
+          - paragraph [ref=e224]: Rain Jacket Women Windbreaker ...
+          - figure [ref=e226]:
+            - img "Rain Jacket Women Windbreaker Striped Climbing Raincoats" [ref=e227]
+          - paragraph [ref=e229]: Lightweight perfet for trip or casual wear---Long sleeve with hooded, adjustable...
+          - button "₹ 39.99" [ref=e231] [cursor=pointer]
+        - generic [ref=e233]:
+          - paragraph [ref=e235]: MBJ Women's Solid Short Sleeve...
+          - figure [ref=e237]:
+            - img "MBJ Women's Solid Short Sleeve Boat Neck V" [ref=e238]
+          - paragraph [ref=e240]: 95% RAYON 5% SPANDEX, Made in USA or Imported, Do Not Bleach, Lightweight fabric...
+          - button "₹ 9.85" [ref=e242] [cursor=pointer]
+        - generic [ref=e244]:
+          - paragraph [ref=e246]: Opna Women's Short Sleeve Mois...
+          - figure [ref=e248]:
+            - img "Opna Women's Short Sleeve Moisture" [ref=e249]
+          - paragraph [ref=e251]: 100% Polyester, Machine wash, 100% cationic polyester interlock, Machine Wash & ...
+          - button "₹ 7.95" [ref=e253] [cursor=pointer]
+        - generic [ref=e255]:
+          - paragraph [ref=e257]: DANVOUY Womens T Shirt Casual ...
+          - figure [ref=e259]:
+            - img "DANVOUY Womens T Shirt Casual Cotton Short" [ref=e260]
+          - paragraph [ref=e262]:
+            - text: "95%Cotton,5%Spandex, Features: Casual, Short Sleeve, Letter Print,V-Neck,Fashion..."
+            - link "Best fashion retailers" [ref=e263] [cursor=pointer]:
+              - img [ref=e265]
+              - text: Best fashion retailers
+          - button "₹ 12.99" [ref=e268] [cursor=pointer]
+      - paragraph [ref=e270]:
+        - text: "Credit: Built using"
+        - link "Fakestoreapi" [ref=e271] [cursor=pointer]:
+          - /url: https://fakestoreapi.com/
+    - generic [ref=e272]:
+      - insertion [ref=e274]:
+        - generic [ref=e276]:
+          - generic "These are topics related to the article that might interest you" [ref=e277]: Discover more
+          - link "T-shirt" [ref=e278] [cursor=pointer]:
+            - img [ref=e280]
+            - text: T-shirt
+          - link "Three Button Henley" [ref=e282] [cursor=pointer]:
+            - img [ref=e284]
+            - text: Three Button Henley
+          - link "T Shirt" [ref=e286] [cursor=pointer]:
+            - img [ref=e288]
+            - text: T Shirt
+          - link "jackets" [ref=e290] [cursor=pointer]:
+            - img [ref=e292]
+            - text: jackets
+          - link "Jackets" [ref=e294] [cursor=pointer]:
+            - img [ref=e296]
+            - text: Jackets
+          - link "Best fashion retailers" [ref=e298] [cursor=pointer]:
+            - img [ref=e300]
+            - text: Best fashion retailers
+          - link "Jacket" [ref=e302] [cursor=pointer]:
+            - img [ref=e304]
+            - text: Jacket
+          - link "Lock and Love" [ref=e306] [cursor=pointer]:
+            - img [ref=e308]
+            - text: Lock and Love
+          - link "Contrast Raglan Long Sleeve" [ref=e310] [cursor=pointer]:
+            - img [ref=e312]
+            - text: Contrast Raglan Long Sleeve
+          - link "Shirt" [ref=e314] [cursor=pointer]:
+            - img [ref=e316]
+            - text: Shirt
+      - contentinfo [ref=e318]:
+        - generic [ref=e320]:
+          - generic [ref=e321]:
+            - paragraph [ref=e322]: LetCode by Koushik Chatterjee
+            - paragraph [ref=e323]: Empowering Test Automation Engineers through learning
+          - paragraph [ref=e325]:
+            - text: © 2025 LetCode | Created by
+            - link "Koushik Chatterjee" [ref=e326] [cursor=pointer]:
+              - /url: https://www.linkedin.com/in/ortoni/
+            - text: "&"
+            - link "Bollineni Lakshmi Yaswanth" [ref=e327] [cursor=pointer]:
+              - /url: https://www.linkedin.com/in/bollineni-lakshmi-yaswanth-14472a199
+  - insertion [ref=e328]:
+    - iframe [ref=e331]:
+      - iframe [ref=f1e1]:
+        - generic [ref=f2e1]:
+          - generic [ref=f2e2]:
+            - generic:
+              - img [ref=f2e6] [cursor=pointer]
+              - button [ref=f2e8] [cursor=pointer]:
+                - img [ref=f2e9]
+          - generic [ref=f2e16]:
+            - link [ref=f2e17] [cursor=pointer]:
+              - /url: https://googleads.g.doubleclick.net/dbm/clk?sa=L&ai=C1P6SYo4haeSCB9mMpt8P7sLo-ArNuafEgwGN3PLn2xS3_PP9CBABINORliJg5arlg6wOyAEJqQKPH6-eNf9HPqgDAcgDmwSqBPQBT9An59ZGgXMoyviB-doBkojmgXAnQsh5sqDtV5DKuFPpVF4vbBqjCIsxJ4vkzyQszb20s1yetgCX_fG2NQknwQLg0mzuj2j2-lQ-MwAtycw6JX294XM5mZHS7-mdjykMjpFG19YH0uEY0qrC1KgnoT1ITRmGWb8WrHYTiOKpbDi3BetrpgeOPhU9hwSmWOORQAyyBlgCEFzarCmtFwVqfHyVqnU8_YsRVALabtD9PeKD0NBFHZwyC5-FALC86DDssiXjthyMPpww98wP3WX-ZwOkhJhvkl7SvviznGzayqsdesg5sEQwmZWFjjy74owGQ1an7sAE0KjB9sAF4AQDiAWzptGGVpAGAaAGTYAHzauUqxioB6fMsQKoB6a-G6gHzM6xAqgH89EbqAeW2BuoB6qbsQKoB47OG6gHk9gbqAfw4BuoB-6WsQKoB_6esQKoB6--sQKoB9XJG6gH2baxAqgHmgaoB_-esQKoB9-fsQKoB_jCsQKoB_vCsQKoB-fXsQLYBwDSCC8IgGEQARifATIIioKAgICAgAg6DYBAgMCAgICAqIACqANIvf3BOliXt-C2xIWRA4AKAZgLAcgLAYAMAaoNAklO6g0TCOb097bEhZEDFVmG6QUdbiEar_ANAYgOCbATxuy3H9ATANgTENgUAdAVAcoWAgoA-BYBgBcBshcCGAKyGAkSArhQGE0iAQDQGQE&ae=1&num=1&cid=CAQSvwEAwksa0YkPmKBXNRC7KwRNYV60ZSFj0AZEx77kGjcNnKGDoucwJFnXbu_zDVMZ_5hryUv36vNcWuHUD7zG5nKf_iae_hc2mmKX7q8c0ZMrsdF-zqXvfU3HuPQjtuWt8OSix9YLKhG1iwIlgYYwnCab4JMoyo3QQlQ6pBMEQ_3IjUZ2bkN8eYc9x4pvtaRav2Oh4EQSz0cD1bE916ZcvHVwzK9FjMiLPgmxLd5t4CqIfXXbyY5k7wR8aThMKJpDLxgB&sig=AOD64_0IkL_3_sgGCVTv2XIp4QcUidS9gA&client=ca-pub-6251538267574677&dbm_c=AKAmf-BIsNuXFBCny_fF7uU2ZuMqk8U6qZMszUZfo_wh_YzVRb3mZpDv_iTeKAoNl4jqmI9LBOvwx6HsL2NbsfutnRfZkrBtn6_oWq8F1GADS2fXyfASgkxrytItInKV0n506Y08IIcOGDs4KhXKCejn78bJl0fFjfE2PZVvDM8mQQwlG1Xw1xpLUvkbPDNFUnWkLXBgIbvEBZm7vg0w4UU7y3_X6dNTgFCmQ2ZM_3mWgzB8Srr9q8GxZSI78bqn5nKx9I2YZZkUFJlOqOLqoSfi49Q5nWPeICBrQj2CLJuBhS7799LiAgY&cry=1&dbm_d=AKAmf-B_k5IOag6ughrjIMwM982jSDCNoOHTGH5VR0zEFgj9e8QoQ54lfdQ1_ONpSH5XcWh1lvPl7pL4p7CXruHsqk9gauTveVIxZ5-Fwh1ybRPdz4eunKEo-5vGkojJdet7qAlt-gkFZOYAzvKz4CEZvRzlZokyLINTRNpgn7O_gy86VFWgN8-Ez5VjcvHdl_7KWttPVkcxiavef_TJcy_sJ3_8Yu9hSWdrOIEXOk0vim_qBdl8uBCvWpu2hZmrboDvNbD7bEYnYZreDXd3aTjZ_8vKVNS0YQyl2hflMNDhMhYh6mKekDM-z_tpLf7a20ToM9lRZZD1P15ClaKH96X3lmX1rgK7dPTHVrrNmHvDuSUXt_0xAhswJRgL92nmAtIbG81aR9O4PKELc6hFMaeSxBdh9vgu5Zb67CMpGKvg0IskZAGaEz4J0OHW_4md4hGag6ybZcGjtRuDkNcCzM2IwXUch3NtQ_qQrf51dTs8xk5bX22WwuFK0HEEVs1RFpiEihhLdeyF1TozV4--jloVp7GkW02IFpqP616LYgYjtI-WG70E4tMR3URJAR_xh2C2PTrl9spaZatw0j7-PShvJe-UV4G0BTXrgb2ApdPnFZWwh4hGJk7XVys46qowzYZwcueAwe2i8Epg8TvJANmCzgIQLGpDP4hcTmvrqUi7qeK9KbUcUvwvOfuPrXbRV3MpM0LwCjX_&adurl=https://servedby.flashtalking.com/click/7/289921;9917026;5606100;211;0/?us_privacy=!!US_PRIVACY!&ft_impID=B0680E8B-178B-7195-811B-6BE040F831EC&g=65350BA8A6412F&random=623615.7516085271&ft_width=728&ft_height=90&url=https://www.zoho.com/in/payroll/?utm_source=paytm&utm_medium=cpc&utm_campaign=india25&utm_content=DB-728x90
+            - iframe [ref=f2e18]:
+              - generic [ref=f3e5]:
+                - img [ref=f3e8]
+                - img [ref=f3e11]
+                - img [ref=f3e14]
+                - img [ref=f3e17]
+                - img [ref=f3e20]
+                - img [ref=f3e23]
+                - img [ref=f3e26]
+                - img [ref=f3e29]
+                - img [ref=f3e32]
+                - img [ref=f3e35]
+                - img [ref=f3e38]
+                - img [ref=f3e41]
+  - generic [ref=e332]:
+    - generic [ref=e333] [cursor=pointer]:
+      - img [ref=e335]
+      - link "Go to shopping options for Jacket" [ref=e337]: Jacket
+    - button "Close shopping anchor" [ref=e338]
+```
