@@ -4,6 +4,7 @@ import {EnvLinks } from "../config/env"
 import users from "../fixtures/users.json";
 import { AddProductsPage } from "../pages/AddProducts";
 import { cartItemsPage } from "../pages/CartItems";
+import { log } from "console";
 
 test.describe.serial("E2E Flow", () => {
     let page : Page;
@@ -22,6 +23,8 @@ test.describe.serial("E2E Flow", () => {
         await login.enterUsername(users.validUser.username);
         await login.enterPassword(users.validUser.password);
         await login.clickLoginBtn();
+        console.log("✅ Login Completed !");
+        
     })
 
     test("Adding Products", async () => {
@@ -29,6 +32,7 @@ test.describe.serial("E2E Flow", () => {
         await products.addProduct1();
         await products.addProduct2();
         await products.addProduct3();
+        console.log("✅ Added Products !");
     })
 
     test("Checkout Items Validation" , async ()=>{
@@ -37,6 +41,12 @@ test.describe.serial("E2E Flow", () => {
         await items.validateProduct1();
         await items.validateProduct2();
         await items.validateProduct3();
+        console.log("✅ Items Validations !");
+    })
+
+    test("Checkout Items" , async ()=>{
+        const items = new cartItemsPage(page);
+        await items.finalCheckoutItems();
     })
 
 });

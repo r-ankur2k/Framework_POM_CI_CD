@@ -26,5 +26,10 @@ export class cartItemsPage{
         await expect(this.page.locator(cartItemsSelecters.product3)).toContainText("Samsung 49-Inch");
     }
 
-
-}
+    async finalCheckoutItems() {
+    this.page.once('dialog', async dialog => {
+        console.log("✅ " + dialog.message());
+        await dialog.accept();
+    });
+    await this.page.locator(cartItemsSelecters.finalCheckoutBtn).click();
+}};
